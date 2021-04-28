@@ -2,6 +2,6 @@
 FROM ubuntu 
 MAINTAINER demousr@gmail.com 
 
-RUN apt-get update 
-RUN apt-get install nginx –y 
+RUN apt update 
+RUN apt install -y nginx 
 CMD [“echo”,”Image created”] 
